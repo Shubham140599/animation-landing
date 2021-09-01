@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animation Landing Page</title>
+        <!----CSS Link-->
+        <link rel="stylesheet" href="index.css">
+
+        <!---font-Link-->
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!----Bootstrap Link---->
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous">
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+        <!----Swipper JS--->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"
+                        style="font-weight: bold; font-size: 35px; font-family: Arial, Helvetica, sans-serif;">Shopping
+                        Site</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact US</a>
+                            </li>
+
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Sign</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!----Slider Started--->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="https://www.digitalcommerce360.com/wp-content/uploads/2020/08/Two-thirds-of-consumers-have-increased-online-shopping-because-of-the-coronavirus.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="font-size: 35px; font-style: italic; color: lightblue;">
+                                Shopping Online</h5>
+                            <p style="font-style: italic; font-size: 25px;">
+                                A shopping mall is a place which has many modern things in it such
+                                as a complex of shops representing types of merchandisers and many
+                                walkways that enable the customer to go from unit to unit and to
+                                purchase some things.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://www.digitalcommerce360.com/wp-content/uploads/2020/08/Two-thirds-of-consumers-have-increased-online-shopping-because-of-the-coronavirus.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="font-size: 35px; font-style: italic; color: lightblue;">
+                                Shopping Online</h5>
+                            <p style="font-style: italic; font-size: 25px;">
+                                A shopping mall is a place which has many modern things in it such
+                                as a complex of shops representing types of merchandisers and many
+                                walkways that enable the customer to go from unit to unit and to
+                                purchase some things.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.digitalcommerce360.com/wp-content/uploads/2020/08/Two-thirds-of-consumers-have-increased-online-shopping-because-of-the-coronavirus.png"
+                            class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="font-size: 35px; font-style: italic; color: lightblue;">
+                                Shopping Online</h5>
+                            <p style="font-size: 25px; font-style: italic;">
+                                A shopping mall is a place which has many modern things in it such
+                                as a complex of shops representing types of merchandisers and many
+                                walkways that enable the customer to go from unit to unit and to
+                                purchase some things.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <hr>
+            <!---Slider Started---->
+
+            <!-----shopping cart---->
+
+            <div class="row" style="justify-content:space-between;">
+
+                <h1
+                    style="font-size: 40px; font-style: italic; font-weight: 900; font-family: Georgia, 'Times New Roman', Times, serif; text-align: center;">
+                    Buy Shopping Cart for Shopping</h1>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Buy Card</h5>
+                        <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-1/256/2-512.png"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="data:image/png;base64,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"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="https://cdn3.iconfinder.com/data/icons/e-commerce-2-1/256/1-512.png"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="data:image/png;base64,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"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPMtLhAF-eJHVL5p7S2L-SMF4kA88oqdJ38eT9rtZtbL-h-iHNKqrvJ9qPMGq5BhuNGM&usqp=CAU"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_DgzrNtNnMcMPwhxccaK5XFd3GklZoniYq0rhg43q34mQAyb6hKHde0dTqmyllvtdwU&usqp=CAU"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="https://image.flaticon.com/icons/png/512/126/126083.png"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <img src="https://image.flaticon.com/icons/png/512/126/126083.png"
+                            width="95" height="95" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!-----shopping cart--->
+
+
+            <!---Shopping Started---->
+            <div class="heading" style="text-align: center;">
+                <h7
+                    style=" font-size: 40px; font-weight: 900; font-style: italic; color: lightblue;">
+                    For the Shopping Visit There Website</h7>
+                <p style="font-style: italic; font-size: 25px;">Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Repellat adipisci in id
+                    quos eius possimus ab tempore maiores doloremque, tempora, voluptates aut ex
+                    molestiae consequatur doloribus nostrum! Rerum, sequi maiores.</p>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/1-11957_amazon-logo-png-amazon-com-logo-transparent-png.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://p.kindpng.com/picc/s/3-32159_flipkart-logo-pay-with-paytm-logo-hd-png.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://icubeelectronics.com/wp-content/uploads/2018/06/flipkart-logo-White.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/3-32234_how-to-use-flipkart-super-coins-flipkart-hd.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/3-31616_flipkart-hd-png-download.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/3-31523_flipkart-name-hd-png-download.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/1-12399_amazon-logo-transparent-amazon-studios-logo-transparent-hd.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://png.pngitem.com/pimgs/s/1-12399_amazon-logo-transparent-amazon-studios-logo-transparent-hd.png"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScBHVwtJH188YRGrS3reYIc336iu2LsNZVGju-qvFDLQAWoffXh8UeVMERib4XCLo8LQM&usqp=CAU"
+                            alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+            <hr>
+            <!---Shopping Started--->
+            <!-----Services Section---->
+            <div class="heading-1"
+                style="text-align: center; color: tomato; font-weight: 900; font-style: italic; font-size: 40px;">
+                <h8>Woman Dress</h8>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatibus
+                    aliquam commodi quos odio a, at voluptas harum, saepe quisquam necessitatibus
+                    dolores! Autem minima ad praesentium. Ipsam beatae nisi error.</p>
+            </div>
+            <hr>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img
+                            src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/productimage/2020/9/16/25f5b6a7-ce25-4e66-8a61-3aa2037b6c741600207614629-1.jpg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://i.pinimg.com/originals/1b/b6/93/1bb693ef8e748b9c379e816a184e8120.jpg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://i.pinimg.com/originals/1b/b6/93/1bb693ef8e748b9c379e816a184e8120.jpg"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYYGRgaGh4cHBoaGhgcGBwaGhgaGhoYGhkcIS4lHB4rIRwYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHxISHzQhJCs0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NP/AABEIAQMAwgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQADBgIBB//EADgQAAEDAgQEAwcEAwABBQAAAAEAAhEDIQQSMUEFUWFxgZGhBhMiscHR8BQyUuFCYvEzBxUjcoL/xAAZAQADAQEBAAAAAAAAAAAAAAACAwQBAAX/xAAkEQACAgICAwADAQEBAAAAAAAAAQIRAyESMQRBUSIyYXETM//aAAwDAQACEQMRAD8A6c2yWVXlj7pu0jLJS1lNr3ku0CW0GH4LEAEEq/E1JNkC5jWnovHVL2QnB1GsZur3PlK21CSrn1yGwuNOca4OIAXWTLBlCNqAETuicVVgCBJ2CF/QivGsa9sOaCOqT0OBMLtPNXOxz2uOYAsOkWjw5dflCKpYoTKCcnWhuJJvYbhMKxjYaAIXVapEckI7Ht5rjE4oPpkCQdu4U9MpWgbGvOg1Ky3G6brAbH1Wlw1QTmOvJKMTTLjO5JKZj0wMiuIipU3Os6SdtAPFabgeKNNxYxskXIGp6oWjhHE3EIzDYcteHhugy+aoctWTRx20jQ0OI5yM0tPUQnWEwjXtmSkeFqtylpkE6z1tAj5LqljXsb8BuNRtbWORSllTdNUNl48lHktmgfSLbNRrcPkaHHVK+CcTZUiXDNyTTiOKaG6pqQiwPEseSXRIR+AEM0VeHqjIq2YqLBcnRzKeKMlqUYJ3uiCbym1YOcDZKjhSYM6Fc0/RqGnvj1UVX6gKLjjJYbiBEsfZFUZNmoTEPaRLhJVXCscM+hA0ujYsPfLj2XdKnzRzwzLLYCFLNxeVjNR7SZElV1CSrM+VvxKYBxe8hos25+iFugork6Rw6mxuXO74jo2/ONRv0QGJr5XmDqBGu+vTZOcTgsxzG2ltt4mPlKFxmAGpGhuen/Z9Urkm9sseGKWhdTwud9rDv30TOlwsRDQLeRHfb87oZ4c2zhbfbsjKOIc1pA0P5qiadaF/8ldoCqYaCfgiNRuOsfUSF6SIgg/JMw8PaJJzAWIsfDnta+iHrfEwtfNrioNB1dGny7IONmcpR7FwoNEkC5VVTDA6WKKbSIs43H5PZTKEcUG3YPTZEZtOgvOw8TZWvcTpEfJTEaDuPmrgARAFvT8uukwsSWyl2nL8vJQL67maGxNx23Ca1RDRzm/W33hKsSLk+cbWS6srTVBjsOHZX0TDzrHPdcsx72PirJHPZU8DrFjGOOkn5p2ctS0SE+L+nlZF+ToIw1bOz4HpzggIEuErGY3hLmfFTcY/iq8PxIj4Xy12i2l6F3XZv3vaARKT1N4BQeExIy/uk9UypPIaF1MKwHI/kFFc4uk3UQ0cK6GQ7BdPoMI/aPBDU6LiOS6YHN3TxRVjOHPc0ZCQJuEXS+FgG8K3DVTpsvH4OXSChaCTK8hcEfwZgax0C5JJPawVZ+FsFF8JLRTJmLxcxOhkeaTk0inx0pSJUOclhOU9dDyPXdcUjnZ1Hwnuua9U5gReOQOnQ6f8QJxjqdYOIhr9QYAnSbTdTJ2XTjQVicFa99u3ITyQ9JtsunO/yWhYwuE28BJI7nw2VOI4bYOb5GJMI45PTAoUVKWkGIE8r/VW0KgcAyfiEnuPui2UxBEenpzVLabgRA0639YWt2hc2q2KsdSyZSLC4jYam3Kb2FlQ16b42kXNIDb6jTbx7+aRNqfEBlM/Tafuji24gJJrRdXmBGsz9kWygWtJHcjQE8xy8P7Uo0rgmOfPS4HnB8EbA6n829UMpehuONbFdUZzPXTcW39PMJdj3ZQSeU7J5VoAmRAI0PTk7mLaeSz/AB54yxYEnKRM76jmOvyXR2xkmlFjPglBrqFx/wBjZFcOpQ0xzVfB3jISNNPRG4aoDYBMPPn+zOcU+ALpFjSalsh7hPcVhi5zZ5o1tKBosX0BmOZRqU7tlzRqneA4w1wymx5FMcOGyRZL+IcHY9xLDldzCYpJ9guIw94Oaiz36TEi06KItGbLxWhxBVlJs2mVS+NwpSZluEXEGwp9Nw0XbHvEDVcNrHoFGYkZrlZxNsKqB5GiZYGkBSEj4iPMpX+pnQ2RJ4i5rNBAsOvzSM6aiW+EnKTo7xBvoluOw+dhjZFt4g0gZhHfSe/3hdOLYmIB5eiiTaZ6GSPplfs9xKfgJu2xB5bLT0nB0bd9PzovlxquZiWFpGVzspA1g6d19Npuho6eS3L+NP6TQd6LjhQXcuu6Fq4SLh3a0n0hSrj4toOouTHPkhK2OdzHkPqsjO+gZwfsufhDEgj1QGJ4c1mZ2xMuN5HW23y+XAxLzoVBWeZlx9NfEJim0BFceip9MNi/yU94INz6fZU4qk5okEkcoEt7WuPkhW1jF9NkaaY5XRfWqgXj7rOe0kOFPnmN/BNXVBMRJPNZ/wBqs2RmUwc8eibBfkKySaTNFwVjyxwyi24Mg216JxwnDmfiQfsDT/8AhfO7voPuj8bLHyDZGyWTts94hTyj4TdZjH8RrCwcnGN4i42aL80qfh813aoDCnhwqQXFxMrQcHrhwyk/FO6HwGGGVEUOH5HZ11m0Of0oXi9/VDmottHUYvLJF1eXnRU06Y1XLhBVNoQd1mOIsq/0rjqvMxXQqrjiDMy2yYYkSxhygT0110AuSgCMzhyWjZhA1rCASSwX1N5gSdB00U3kSqKZ6HgS4zf+CYUX5CAxrZMyRLx2DdJ0EmdbI59AsphszAuSdZ1TGjQl3Yye+gH5/FCcbtTJKh58mkVZ8pl8BD8bTbqRmcfAR9V9NDPhPYr5R7JvLscTs1keZX1mjdhPku8rTS/hLgle/wCirFtEQeSWg7a/TsUxxe/0S5wSIOiqeyymRE7KOqSYaLDc7qtkm8335FXYY3jfWN9fkqEyZ6Z485uaExOHGoA68u/RFg6ifFeVgIj8stTNToQYmmWu5fLw5+CTe0Bmk2dntv32WsrtGh084+yzXtTQy4cuGz2/PVUY5W0gckk4s03sM+GOb4+fpsjOImSZKR+xjiHNky5zTDRqIEknwlOuKYfP8QKc2SvsEwzGl0WldVQ0GEnYXU6gNyJTTEvaSCgNQyo0REg7L18qiligArX12kWK46ir3I6qKqTzUXG0A+7bsVS+kNVS9tjJhcU2ODZuqicKpOA1C9qVGDQJY+o6YVtNhmSuOL34xugbda9zCA08mgDwgHxMn8lY9obrutrgKbn02veRJaCOVrBxvr+aqLzHUUV+JJRbsqpsLBfUmSPkkntAA5hBJv1TavVjS4737wVn+JYlr2ukwRe9lFivlY/LJNGP9jauXFvZ/LMB/wDklfbcKw5AN9x13Xxz/wBPMF73HOfMNZmd3zEgL7C+oW76/Mf18kfnNc0v4K8dPjYpxbficOp+6W1E2xTZdPgfulzwJ27qeJTytFWHZ3j8hXEDQC/qFw+wt6q1rAG3N/VOi7FS7sGpkgwdzY/cK2r6K1jRBtbRC1WEaXHmR25jojRnZQ8SlPtKZwz+kbWkOCcvcIgQUDxinnoVW6S3wtr9EyD/ACTFyX4tCDgfESyC10OBsR+4kbDqtO3HVS0l4Ek2sAY6xqVhMMzJAG2+5PNb7Av961juYv33VT0xNMFfhnPIK7xNEgBOHMAtsh6jJQs1Calib5Sbot77TKV4vhri/M2yKdQOWJuso6ye/PNRDe5couo2wnEYcOiSF4Q4Q0RCobXZEXJC5GKDdZVZOFvot13XLqV7GUOzFbwV0zE3W2YWvpsbBJkrcYUZKbBmywwWiYMCZWKwzg57JEgOkjnFyPRJ8b7Q4nEYh7Q9zGNtlaYM9SPFSeVB5GkvWx+F0zZY+qwuPxtveQYM9lmuKvBY7MJF7c7K/DVDUYabzmeASwn/ACi5BPNZ7H4sBj2mQQDY/dTQxU9DZyrTDf8A0uou/UVXs/YGgX7yBK+n4h+ZsaHb+ln/AGFwLaODZA+KoM7juS7r0EBNBc9FL5M+eRv5obiXGKQU9wLBa5senNJMQS10BN31MtpmbeP5byQGIib2HVDDYxSrQG58nwRLRMT/AEqDU+L9pI1nQffVUVcU8bx2Aj1lURgzJUxnUECBudvkhKj7X/tLzmeZMx1nVDPZH+RHl9E1YwA6qBMtEH591xXYHAjm0iDseyC968Gzz0kA/O/qi6D2E/HY83ft89geqLg0C2vZigtj7JVs1Mt/i70N1meMUAyq4N/a74h2OvrKa+yGKyve3WQD5Kj2Iu0a2qyyqcbKxtTN2XpF0VJg2UCmha1G8yj6kIfKCucTrBfcKIz3aiHibyFDGN2aLq39O0jZVNzAkHRcuBcYBVIg5DCDcCF0GNP+K5uwyTMq1jnzLRZccUB5Y4unLsLc7JJwbh7qdWqX3kNId/IGb+cjwWjxTCRDkK4RbkIScuo2PwK5CniBIuCQRuNULw3hf63EsY55AH/kOnwjruTYeaJxgsVvPZHC0adBmQAve3M/ckm8HoNI6KWWThG12OnHlIa/psjWsaIYwQI5CQL7Kt8NbJ69Lx5FF13hrZa7LF4cJaI6TI8CsxjsZnf8Yhumtj1JseVj/wA8+MOTGcq7Lxi3GWgDlME+PVCUajy4zfbMeQ+Wug3RNINMlrZYBM3IPa19lU4gHw3EWjQ9VRCCT0DyoIYIET5CLje6CxLG5tbc9B3gR0RYfP8A23JC1YBkkQOZt62H54VRRjfsoZQeXEgCNJgW7TfZVVaP+o8YjyRQxRcIYJsbmzfudtBfmhalP+ZJ3gWb9z4kolEHk/RQGMBuATyAEjyuO5VhovcbHJzM5iANzNvzvHjf9R4WFtNOSNw1Ausd9T0m46cvNHaRnFvszHFMK3KX3DwbgzBbpmjbZe+zD4rgcwQnftDR15OEef8AfzWa4O/LWYf9gPOy1O9gceNo32IrhgQLscmb2AhUfoWnZbv0BoHZjQV6MW0KO4cAbKp9DoscpIJJBH65vVRDe76KIeTO4lILnCHBeYMtbI33KGY98SZXDKhFgJVQkNrVGEgEaIhr2RZBUWHUhePe7NAgBYcXVqgNtO6DrDVXjDTq4kclTUplzi1oJOgAuUnN+o/x65CnFaEp/wCwGJdkqQQ6Ihsi0k6+SCxXDmsZOIfkkSGNu88h0TD2SY2mx7mho94QdpgNMC/cqbJGsbbGt8ppI0eIY6Ye7rGwF4B8Z8ktdgWTmeZI0B0nYnntbRXtqPuXEX15bDTsqX4gOdEERyE+pt67KaD9DJQYUyh8BAJaSNAIF73Gk7JLicQWugkdC06xyB+icVQ4tBJgcm3Pi4jTfZKfdZfiiCbdT1N787lNjEVJfNHIxGYfCQDuTOa+5buPHwVZZJzGXETE+pGw/tMBSaBfw8AqWGSS4wBqbeSapUqOS+7Km0nlhMlvQR2/OyrLBYamN/lP0RL8SNGAm2tx5eSEYXOPT6oYyd2al7L2AGw16/U8k0wzOmqCZTDYuZOw1PimNCZgWt43RuVo0A4vQlgmbGe43C+ftOV3Y/Ir6RxEww32XzziRj3jxs9ttoeCQ7zR402qAm6dmww/EHwJ5I7C44P0Ky3BOJA0QXCSDHgi8PUDHSLTdPons07nSEM9i4weIzbyjixA0GmL/du5qI7Koh4m2ZurxNogkC6vpcSp2shncKZNwSrWcOY3bzKdUhVosbxFhfEQFMRi6fNVVcKw3gIbDcKaSXOJ7LqZtoKGJYNBPQzCq/XVQCGZWA7tF/Am69r4fLEAALx7bJObpDvHipNiXHguu5xc42kmStP7PH4SCLyLaRbWVnjeo0f7A+S33AcO0szECSdSJtpvpok5HWK39HRS/wCtIpr08wF9dhMeZudPVe0cM1pBJjWL2jz6p62kwGA0acguXhvIeQ16qNSKbEWKrXhvLwv8z+dEFVqNb+6N+99ugmPJNcU8TZottA/Cg3UCHAgNAPQJ0JUJnsF94XCwtGwmTz/OSpqU4G57+eg+qcspfydzQuKpsGriTOgt+bruWxaVglClAJdGn5ZVYZhcZRVTFgAhrenP81XmHxWUaIk2boMo0tCbo1rcskxoD8/ulzcQ4/n5dEtouN3W5SdPuVsTV9B8YWu/dMdtZ5/ZYzjWFLXidHASNjlNj6ra44iLEEDofmszx5mYMO4JHndOg9i572DcOoSy0WOi9qYOoSIFlXwutGZvinGHxf8AJPSJ5d0c4fEmmILU7wFfO0OO6BfiqbrGJXdKAZDrei1o5MbKIL3ruYUQ0bYDfXXrshnva50XDlbiMIbZHkdNlMQwkABotrzTRZUWCIzLunScBe/JeNAmGtRBBNiuOA3UXG7hZcVl2/DOzgh5gGSJVFZ8uKmzPaRX4ypNi+lHvhOwJX0LhNYNpMkAAjmJueRhYbg2X9SZ0ylaim8AAAgFIz/+aX9H4Icsr/wd/q2uNnCO66+EXnMY5zCS1XwCTJt116Ic1TAAHXYKNRLJYF9DsQ/cfnRD12OIJlD/AKpzRa99HH6xKgxQc0y+DuCflzTETTg0d4YTF9l3Xwsgn8sph6jGi5nwVtTHtiw6onZN7F9LCg6nf0EoqjTY3aSdt1Q7EO0DNT9DqV3RxJtBudYCLYxJUH4WgSbiL9LdkS+kJuQ7zQ1AEm74A80SAzRoLranTvJWxMYNjCCDe2yyXH2FrcwP+Q8iD/S0ONcADZZ3ilaGOpm9pDib2MgAeCfACS0LOE1oqQROYLR08M15vZY3DPIe08itKKpLraKqJNPsKr8OmYgwhXse0RKKpvIMgqt7mk3lEDRx7x/L1UU81EJppW0hyXL6Q1ELoVosvWO1zRGyMET8Qpw4EW7K003G4R78Oxx0Q2KGQgA6iwQTfFWFCPJ0eVOHFtMVGMLgQc5bctPIhIsVUAFj90yZjn0zLHFp9D3GhQfEOP1HTmbTPXLB9CpW1N29FqThGlsWcFJNcz/ExK2NB0NFv70/PFZX2dGd73kCbNbqb7nVaUMeLy0x0cPqUvOtJD/Bd8myypV+IA+XgqH1QCYG3L8tqq35y6zB3zHbXUBRtv3NPYFp6Xup6LZX6Ba5c7SPlZUZHHa3PZX167YJIdH/ANXH1AVLqzCAC4N9PC6ZGLonlL0F0asQ12mk/dHsIDSbJE/EsH+Q7ggz22VlLicCB8Qiw310lZJP0SygNHhzrXUotcLGB2VLMY5zR8OWdkRhaJdqYCDZ0aWgim6dSfNdOqkAgEx6KxuFnaGj1Xtek0CIHjotUhjcUhNia5Npt2tZZ3iVMmXE/wCJHp9U/wCKPAIFtJtGiR1qDXgguO/cSf8Aqpxt2Kk/xbZnmUamcZRMXhaPBYxjvhcCx+4dv2O6qZSaz9pv11K7YzOcrgD3+isSIWxjSqADQFVPxYzRlPdefpHsaWse2CLFwJI7Hdc0cLUDcrnhx5xCIwOhvMKIH9I7+QXqE6zVvayLEWQ5fyKzRqYg3iF433x1MLbONWyoB1hCcYeIYQNdxpG4SlmFqx/5AF5V94xhBqZmax15oJ24sZiaUkdPqB5toEjxZc5+Volx2+/JFYZ5yOdoJt9UPwTEtNYteYDrZuqnhG2VZZJRHXCqTaLWA3Iu4jSSY+uq0bXkiWx36dOaVYvAZWgsuTG98u6pwmKdTGpAnQzbsB9Qe3Ls0bN8ZpJjSsHRJMXEDQczoqHsaDLnEjfkP60XDKoqHMXAiRY2I30XeJaDGsdo9UpKh8pAVeu2IHPbVAVnuiGiI1TM0xqABsIvedYC4/TjLd0c9JPgtcktAx+sUe7e463OwF/6TPCcO0zXtp9zujGhjBaOq7o1i45Ra0EpUpN9C5PegjC4XchMmDKLD8+iHptsI33PdXCB1+XcpQcUdudaUHiCSLQJ3O/ZWOqFx+QFgPuVTiW2JIK2JzRmscTmdeTpHOPwpeQScwkkgSPX6ojEHU2Nz81KBMCCBYeNtFbiW0ZmVQYuqVb6XRmHpPNwEdWogCSyTzC9ZpIt0VVHnHuGe+IeV1UPIyqxSDl7SrMZYAkjoto4496eRXqn64/wPkouoyxs+lNwI6qpzQLEgnsm9Sk139Iargx/jYojAFzYE2KrLCRIjsiH1MgOcSkvEMe8sfl+GxjmsMbBOO4nK0CRJsACJ8Qk2IpZGMcNfrqlznkmTc9U54qc1JrhzB9EtxUXoNzclT9Gz4VihVYxwsSL2mI1TH3Rdu0dxHjrrCxvshinZXMAJj4hBA8L21WrZXBjMMp0+K3qdUvItnKQQ3Csacxyk/6iJ6dR4omkKLrht+Uaawh3uAaLT4hDtx4b8TWye9uyVxtBqbT70WVwM5EctTzvKpGHBJnyA/Pwrp+KJJcGgTfXoNlRiK1ozdw31U7uyxfqj2pQESTZSm1oGbTrpZCl7IIu4zuSI7lXUWMAvc+g7Bczkvoypsc4At/btOpjkNvHyRAeBb57/coel+3pFkVQbb59EpjU9HDXwNEvxjzpITGqwRoPJLMSYnRFE5qzJ4wuDnd/qvMGx7mhwfkLXGJuD0I5KzibXF2bbf8APzZE8MxDWsJc2Rmt0sPqrsPaE+RL8Cx3EqgEGkSebbtP2QmGpudUL3kz/iwGGt78ymAqMIkOInZd4eg39zRM7qmyArp/C/MSGt5c1ZVxQP7WjuV3WIGw6pbWxIeYZJPQWWnB/wCo6BRAfpKyi4w2RokKnFVMrcxKJmdEp9oMK4sDmn9hzEHcLmzhTi8Q55knsOSDqGbIZ2Nuo6sg5GUZrEMyvLeRRrKmagR/E+iq4u34g7n81Rgqn7m/yHqie0cOvZXFBjnzyHPyWqPGLan0Fte6wfC/3fml08oD8+qxwT2UYYprY4q45sftieT8um5y6+Kh4kWthom95Mn0AAS74Z0JMK7DUrAmBfSYtff7IHFIcsEZdKj2rxS92kTF4kTr4oyk/PfQf6xJ7kadkFXNIg2DvE2MXugP1GQ2zdCJHgUmcFLrRTDFFRq9mro4cReALQJRFFomBpG6zGE4m8akxztPqExoY2f8xvsM3ySJY5GOPHs0dNw6FWe9OlzJ0EaJFRxQbMy7qfpdXt4teIjlBg+SW8Un0YpRXsuxGNAAaOZ01SzE1HOOsdt11UxgcScjhHaT4IPF49g0+HmLz4nRasco9o15IPoFxtOLGSPzZW8PblZH+JOsSUMa7nGcwIPT7JpgmuawAgd9rqvAnbI87tI9wjWRJAPhCufVDQcvkowMBPVducGiwaVQTsBfUJHxANHUrxlPKJYNVZVc1xgs+yvY8jVoIHVEcB+7f/N3movDXP8Ar5qLjDVMGWSq+LjNQfH8SqnveR8Ijuuml2jtDYrGcfNXtVrX2RXEMKadRzDsbdQdELVbASzAXHjM09LpQx8EFNnPSiqIJRxOHWAoBziZtEptRYOcR12H0SPgtQSQTFvz6J2ymw6uPi4ifAQFrPQ8RLjb+hNRwyzmynmbW5IaWzIJf5x56KF7AbAdwPturGYmYED+kFFcqbPHPdEhtjzI87SuC/Yu8GgadzKor4uJE9ghGvLoj+0cY/ROTKo6QU7Dk6E36/TRH4Th7wWkvBEzpyvGaV7hKDWtl13c5sOn9oo4hgbJLR4hDJ+kRzzNhjGjckk8onzhXe6/xs3tfvJnultHiNOwY9ubovK2NcP269dPJJdIGPKX9DalNoBE79h3jySjHtFydFc2sXAue4k+nkEHjMS2ICxTTGLDJbbFNaqJsfy63DGAiXOcbC2ywj6OY21laccRAEG/ZOhSFTfobNezTKSqarGzZmvMlLWcRMaQuHY6RvPPdHaF0xyxv+jQFTicK06Dv8RSxvEY3XJx7zvAXWjQj/21vI+aip/Wf7KLrRlM2DCrKv7VFFzMMr7UizHbzE9OSzWIdZRRAzmBOQWM1CiiKJh7w15D7HmFoG2JUURFGDstZ9PovGXmb/8AFFELLH0LqzATorX2ba3ZRRDInf7C7EVDzReAYCTImyiiFCZDzD4drYIaAeavqLxRJy/sU4OgeogMSoosj2HLo8w+qJcoonxI59lqGebqKIwT17ZauqSii449UUUWGH//2Q=="
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://lh3.googleusercontent.com/proxy/zWYT28miwdMpUIL4_YA59nmbWyoRq2T5Uxh_30pSVtMvOqooJvWqC9tlfzSAGwr9qFUWXsiB8TziqlsOzsL2gNGtdf9_az2781oJVJGi5gvFKGDGcAiHIXVjpTtuuCbTDld3zzrUFUO95_jzE5EnhDm1vyNoaTjv6Vd2I1RufsrDrc3Uzw"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://lh3.googleusercontent.com/proxy/zWYT28miwdMpUIL4_YA59nmbWyoRq2T5Uxh_30pSVtMvOqooJvWqC9tlfzSAGwr9qFUWXsiB8TziqlsOzsL2gNGtdf9_az2781oJVJGi5gvFKGDGcAiHIXVjpTtuuCbTDld3zzrUFUO95_jzE5EnhDm1vyNoaTjv6Vd2I1RufsrDrc3Uzw"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTkvNzmucZKzIubmoaFWotRm9t6-shugopzQ&usqp=CAU"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxKg4XxmQp71cQgmmtHMP8KPNgq-IVxQigwA&usqp=CAU"
+                            alt=""></div>
+                    <div class="swiper-slide"><img
+                            src="https://cdn.shopify.com/s/files/1/0254/1594/2247/products/078122teal_2_0a204286-e5de-4239-a6b5-117e2b09027e_600x.jpg?v=1627456690"
+                            alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+            <!-----company Motive Started--->
+            <div class="heading-2"
+                style="text-align: center; color: tomato; font-weight: 900; font-style: italic; font-size: 40px;">
+                <h8>Company Motive</h8>
+
+
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                            excepturi aut architecto amet ipsa voluptatem quae cum officia obcaecati
+                            deleniti? Vero, necessitatibus corporis. Tempore odit explicabo
+                            dignissimos animi reprehenderit similique!</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <hr>
+            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+            <!-----Man Dress Started--->
+            <!-----Services Section---->
+
+
+            <!---Contact US Section---->
+
+            <h1
+                style="text-align: center; font-size: 40px; font-style: italic;color: lightblue; text-decoration: underline;">
+                Contact US Page</h1>
+            <section id="contact">
+
+
+
+                <div class="contact-wrapper">
+
+                    <!-- Left contact page -->
+
+                    <form id="contact-form" class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="name" placeholder="NAME"
+                                    name="name" value="" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="EMAIL" name="email" value="" required>
+                            </div>
+                        </div>
+
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE"
+                            name="message" required></textarea>
+
+                        <button class="btn btn-primary send-button" id="submit" type="submit"
+                            value="SEND">
+                            <div class="alt-send-button">
+                                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                            </div>
+
+                        </button>
+
+                    </form>
+
+                    <!-- Left contact page -->
+
+                    <div class="direct-contact-container">
+
+                        <ul class="contact-list">
+                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
+                                        class="contact-text place">City, State</span></i></li>
+
+                            <li class="list-item"><i class="fa fa-phone fa-2x"><span
+                                        class="contact-text phone"><a href="tel:1-212-555-5555"
+                                            title="Give me a call">(212) 555-2368</a></span></i>
+                            </li>
+
+                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span
+                                        class="contact-text gmail"><a href="mailto:#"
+                                            title="Send me an email">shubhamtiwari8047@gmail.com</a></span></i>
+                            </li>
+
+                        </ul>
+
+                        <hr>
+                        <ul class="social-media-list">
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-github" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="#" target="_blank" class="contact-icon">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <hr>
+
+                        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-----Contact US Section--->
+            <hr>
+        </header>
+
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                freeMode: true,
+                loop: 5,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+
+            /*****second JS******/
+            document.querySelector('#contact-form').addEventListener('submit', (e) => {
+                e.preventDefault();
+                e.target.elements.name.value = '';
+                e.target.elements.email.value = '';
+                e.target.elements.message.value = '';
+
+
+
+            });
+
+        </script>
+
+
+
+
+    </body>
+
+</html>
